@@ -1,0 +1,326 @@
+/* ********************************************************************************* */
+                        /* index page */
+/* *********************************************************************************** */
+nav{
+        overflow: hidden;
+        padding: 15px;
+        background-color: #3c449c;
+    }
+    nav ul{
+        width: 500px;
+        float: right;
+        margin-top: 15px;
+    }
+    nav ul li{
+        display: inline;
+        padding: 5px;
+        margin-left: 40px;
+        padding-top: 10px;
+        font-size: 21px; 
+    }
+    nav ul li a{
+        text-decoration: none;
+        color: white;
+        /* font-weight: bold; */
+        transition: 1s;
+    }
+    nav ul li a:hover{
+        transform: scale(1.1);
+        transition: .9;
+        color: whitesmoke;
+        border-left: 2px; 
+        border-right: 2px;
+    }
+    .navbar-brand{
+        width: 250px;
+        float: left;
+        margin-left: 20px;
+    }
+    .navbar-brand img{ 
+        width: 100px;
+        box-shadow: 7px 7px 10px rgba(0, 0, 0, 5);
+    }
+    .navbar-brand img:hover{
+        transform: scale(1.1);
+        transition: 2s;
+    }
+     .banner  {
+         background-image: url("../img/download\ \(2\).jpg");
+         background-size: cover;
+         opacity: .85;
+         height: 400px;
+         position: relative;
+         top: -30px;
+     }
+     .banner p{
+         text-align: center;
+         font-size: 30px;
+         color: black;
+         position: relative;
+         bottom: -100px;
+         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+     }
+
+     .l1{
+       border: 2px solid #3c449c;
+       padding-top: -5px;
+       background:#3c449c;
+       position: relative;
+       top: -30px;
+     }
+
+     .l1 p{
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+     }
+
+
+     .l2{
+        border: 2px solid #3c449c;
+        padding-top: -5px;
+        background: #3c449c;
+        position: relative;
+        top: 25px;
+     }
+
+     .l2 p{
+        text-align: center;
+        font-size: 25px;
+        color: #fff;
+    }
+
+    .pic1{
+        padding: 10px 110px;
+    }
+
+    .pic2{
+        margin-top: 55px;
+        padding: 10px 90px;
+    }
+
+    .pic3{
+        margin-top: 45px;
+        padding: 10px 110px;
+        filter: grayscale(0%);
+    }
+.pic3 img:hover{
+    filter: grayscale(100%);
+    transform: scale(1.1);
+    transition: .9s;
+}
+    .pic4{
+        margin-top: 55px;
+        padding: 10px 150px 40px;
+    }
+
+
+/* ********************************************* */
+/* gallery styles */
+/* ********************************************* */
+
+body{
+    margin: 0;
+    padding:0;
+    font-family: cursive;
+    transition: all 1s;
+}
+
+h1{
+    text-align: center;
+    color: teal;
+    font-size: 40px;
+}
+
+h1:hover{
+    transform: scale(1.1);
+    transition: 2s;
+    /* color: red; */
+}
+
+.gallery{
+    margin: 50px 270px;
+}
+.gallery img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    transition: 1s;
+    margin: 10px;
+    border-radius: 55px;
+}
+.gallery img:hover{
+    filter: grayscale(0%);
+    transform: scale(1.1);
+/* footer section styling */
+}
+.footer-bottom{
+    text-align: center;
+    background: #3c449c;
+    color: white;
+    height: 250px;
+    padding-top: -55px;
+}
+
+.social a{
+    color: #fff;
+    font-size: 35px;
+    padding: 5px;
+} 
+
+
+
+
+/* ************************************** */
+/* contact styles */
+/* ************************************** */
+
+.body-contact-page{
+     background-color: white;
+     opacity: 0.9;
+ }
+
+#contact-page{
+    border: 5px solid #2470bb;
+    border-top-color:#3c449c ;
+    border-bottom-color:#3c449c ;
+    border-left-color:#3c449c ;
+    border-right-color:#3c449c ;
+    border-radius: 30px;
+    padding: 50px;
+    padding-right: 40px;
+    width: 600px;
+    height: 350px;
+    margin: 200px;
+    margin-right: 80px;
+    margin-top: 100px;
+    background-color: white;
+    border-left-width:90px;   
+}
+
+.contact img{
+    width: 100px;
+     margin: 80px;
+    margin-right: 10px;
+    background-color: #3c449c;
+     margin-top: 80px;
+     transition: all 1s;
+}
+
+.contact img:hover{
+    background-color:#2470bb ;
+    transform:scale(1.5)
+}
+
+#contact-page H5{
+    width: fit-content;
+    font-size: 15px;
+    text-align: end;
+    /* font-style: italic; */
+    color:#2470bb ;
+    border-right: 5px solid#2470bb ;
+    border-bottom:5px solid #2470bb;
+}
+
+#contact-page .contact{
+    display: flex;
+}
+
+#contact-page .form{
+     float:right; 
+     margin: 100px;
+     margin-top: 5px;  
+}
+
+#contact-page input{
+    height: 40px;
+    width: 300px;
+    margin-top: 0px;
+    border-radius: 10px;
+    /* background-color:#3c449c ; */
+    border-right: 5px solid#2470bb ;
+    border-bottom:5px solid #2470bb;
+}
+#contact-page input:hover{
+    color: #fff;
+    background-color:#2470bb;
+
+}
+
+#contact-page .form :placeholder{
+    color:black ;
+
+}
+
+#contact-page textarea{
+    height: 70px;
+    width: 300px;
+    margin-top: 0px;
+    border-radius: 10px; 
+    /* background-color: #3c449c; */
+    border-right: 5px solid#2470bb ;
+    border-bottom:5px solid #2470bb;
+    /* color:black ; */
+}
+#contact-page textarea:hover{
+    color: #fff;
+    background-color:#2470bb;
+}
+
+
+#contact-page button{
+    height: 50px;
+    width: 300px;
+    margin-top: 0px;
+    border-radius: 10px; 
+    background-color: #3c449c; 
+    color:  white;
+    border-right: 5px solid#2470bb ;
+    border-bottom:5px solid #2470bb;
+  
+}
+
+#contact-page placeholder-shown{
+    color: #2470bb;
+}
+
+#contact-page button:hover{
+
+    background-color:#2470bb;
+    
+}
+/* ************************************************************ */
+/* about page */
+/* ***************************************************************** */
+.Aboutus h1 {
+    margin: 50px;
+    width: 280px;
+    font-family: cursive;
+    box-shadow: 5px 5px 6px;
+    font-size: 50px;
+    text-decoration: none;
+    margin-top: 200px;
+    margin-left: 500px;
+    margin-bottom: 100px;
+    position: relative;
+    top: -140px;
+}
+
+.Aboutus p {
+    border: 3px solid #2470bb;
+    width: 50%;
+    height: 50%;
+    padding: 125px 35px;
+    font-size: 20px;
+    color: teal;
+    font-family: 'Open-Sans', sans-serif;
+    line-height: 28px;
+    font-weight: 300px;
+    margin: 20px 265px;
+    text-decoration: none;
+    opacity: .85;
+    border-radius: 50px;
+    text-align: center;
+    position: relative;
+    top: -140px;
+}

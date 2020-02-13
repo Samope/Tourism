@@ -1,0 +1,164 @@
+nav{
+    background: brown;
+}
+.nav-item{
+    padding: 6px;
+    font-size: 22px;
+}
+
+.nav-item:hover{
+    transform: scale(1.1);
+    transition: 1s;
+}
+
+.navbar-brand img:hover{
+    transform: scale(1.0);
+}
+
+#section1{
+    background: url('../img/download\ \(2\).jpg') no-repeat;
+    position: relative;
+    top: 109px;
+    background-size: cover;
+    height: 500px; 
+}
+
+#section1 p{
+    text-align: center;
+    font-size: 25px;
+    padding: 5px;
+    position: relative;
+    bottom: -45px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.section2{
+    background: brown;
+    position: relative;
+    bottom: -109px;
+    height: 90px;
+}
+
+.section2 p{
+    text-align: center;
+    font-size: 25px;
+    padding-top: 17px;
+    color: #fff;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+
+.section3 img{
+    padding: 0px -30px;
+    position: relative;
+    bottom: -110px;
+    border-radius: 30px;
+    left: -13px;
+    height: 160px;
+    width: 260px;
+    padding: 10px;
+    filter: grayscale(100%);
+}
+.section3 img:hover{
+    filter: grayscale(0);
+    transform:scale(1.05);
+    transition: all 1s;
+}
+
+footer{
+    background: brown;
+    height: 200px;
+    position: relative;
+    bottom: -130px;
+}
+
+footer span{
+    font-size: 20px;
+}
+
+footer a{
+    font-size: 35px;
+    padding: 5px;
+    color: #fff;
+}
+
+/* ********************************************************** */
+/* ABOUT STYLES */
+/* ********************************************************** */
+
+
+#section5 h1{
+    position: relative;
+    bottom: -70px; 
+    color: teal;
+    font-size: 50px;
+}
+
+#section5 p{
+  position: relative;
+  bottom: -70px;
+  color: teal;
+  font-size: 25px;
+  font-family: cursive;
+  border: 2px solid teal;
+  border-radius: 50px;
+  line-height: 75px;
+  padding: 30px;
+  text-align: center;
+}
+
+/* *********************************************************** */
+/* GALLERY STYLES */
+/* *********************************************************** */
+
+#section6 img{
+    position: relative;
+    bottom: -110px;
+    right: 8px;
+    height: 150px;
+    width: 250px;
+    padding: 10px;
+    border-radius: 50px;
+    transition: all .8s;
+}
+
+#section6 img:hover{
+    transform: rotateY(180deg);
+}
+
+/* ********************************************************** */
+/* CONTACT STYLES */
+/* ********************************************************** */
+
+#contact h3{
+    position: relative;
+    bottom: -70px;
+    /* right: -140px; */
+}
+
+#contact p{
+    position: relative;
+    bottom: -70px;
+    font-size: 20px;
+    /* right: -140px; */
+}
+
+#contact form{
+    position: relative;
+    bottom: -70px; 
+    /* right: -240px; */
+    /* width: 600px;   */
+}
+
+
+#contact form span{
+    padding: 5px;
+    font-size: 30px;
+    border: 1px solid #ddd;
+    background: #ddd;
+}
+
+#contact form input{
+    color: #000;
+    /* width: 400px; */
+    position: relative;
+}
